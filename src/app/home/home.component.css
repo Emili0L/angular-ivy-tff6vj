@@ -1,0 +1,21 @@
+* {
+  margin: 10px;
+}
+
+.border {
+ background-color: rgb(236, 236, 236);
+ height: 1080px;
+}
+.content {
+  padding: 0;
+  display:flex;
+  text-align:justify;
+  align-items:center;
+}
+
+img {
+	border-radius: 150px;
+	border: 10px solid #8585ad;
+	width:400px; height:auto;
+  margin:25px;
+}

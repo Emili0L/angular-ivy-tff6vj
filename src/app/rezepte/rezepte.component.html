@@ -1,0 +1,9 @@
+<h1>Rezepte</h1>
+<div *ngFor="let recipe of recipelist">
+  <h2>
+    {{ recipe.name }}
+  </h2>
+  <div *ngIf="recipe.video">
+    <iframe width="560" height="315" src="recipe.video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>

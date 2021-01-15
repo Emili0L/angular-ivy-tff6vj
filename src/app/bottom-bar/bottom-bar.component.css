@@ -1,0 +1,9 @@
+.bar{
+  background-color: rgb(236, 236, 236);
+  color: rgb(22, 22, 22);
+  height: 200px;
+	padding: 0;
+  display:flex;
+  align-items:center;
+  text-align:center;
+}

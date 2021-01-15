@@ -1,0 +1,25 @@
+<h1>
+cart works!
+</h1>
+<div class="item" *ngFor="let item of cartList">
+  <div class="buttons">
+    <span class="delete-btn"></span>
+  </div>
+
+  <div class="image">
+    <img src="{{ item.img }}" alt=""/>
+  </div>
+
+  <div class="description">
+    <span>{{ item.name }}</span>
+  </div>
+
+  <div class="quantity">
+  </div>
+
+  <div class ="price">
+  </div>
+</div>
+
+
+

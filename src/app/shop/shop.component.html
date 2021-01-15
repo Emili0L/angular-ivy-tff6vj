@@ -1,0 +1,19 @@
+<section class ="productlist">
+  <div  *ngFor="let product of products">
+    <div class="product-card" (click)="addToCart(product)">
+      <div class="product-image">
+        <img src="{{ product.img }}" alt="Picture of product.name">
+      </div>
+      
+      <div class="overlay">
+        <div class="text">In den Warenkorb</div>
+      </div>
+
+      <div class ="product-info">
+        <h3>{{ product.name }}</h3>
+        <h4>{{ product.price }}€</h4>
+      </div>
+      
+    </div>
+  </div>
+</section>
